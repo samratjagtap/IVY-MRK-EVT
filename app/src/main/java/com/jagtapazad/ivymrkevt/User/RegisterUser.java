@@ -91,11 +91,17 @@ public class RegisterUser extends AppCompatActivity {
                 ".{4,}" +
                 "$";
 
+        String passwordVal2 = "^" +
+                "(?=.*[a-zA-Z])" +
+                "(?=\\S+$)" +
+                ".{4,}" +
+                "$";
+
         if (val.isEmpty()) {
             regPass.setError("Field Cannot Be Empty");
             return false;
         } else if (!val.matches(passwordVal)) {
-            regPass.setError("Password is Too Weak");
+            regPass.setError("Password Too Weak (Use Special Characters)");
             return false;
         } else {
             regPass.setError(null);
@@ -121,7 +127,7 @@ public class RegisterUser extends AppCompatActivity {
         regEmail = findViewById(R.id.RegisterEmail);
         regPhone = findViewById(R.id.RegisterPhone);
 
-        ccp=findViewById(R.id.countrycode);
+        ccp = findViewById(R.id.countrycode);
 
 
 //        if (fAuth.getCurrentUser() != null) {
@@ -159,16 +165,17 @@ public class RegisterUser extends AppCompatActivity {
                 String pass = regPass.getEditText().getText().toString();
                 String phone = ccp.getFullNumberWithPlus() + "-" + regPhone.getEditText().getText().toString();
 
-                Intent intent=new Intent(RegisterUser.this, RegisterUser2.class);
+                Intent intent = new Intent(RegisterUser.this, RegisterUser2.class);
 
-                intent.putExtra("FullName",name);
-                intent.putExtra("Email",email);
-                intent.putExtra("Pass",pass);
-                intent.putExtra("Phone",phone);
+                intent.putExtra("FullName", name);
+                intent.putExtra("Email", email);
+                intent.putExtra("Pass", pass);
+                intent.putExtra("Phone", phone);
                 startActivity(intent);
             }
         });
     }
+
     @Override
     public void onBackPressed() {
         startActivity(new Intent(getApplicationContext(), LoginActivity.class));

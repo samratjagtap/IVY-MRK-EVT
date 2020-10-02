@@ -191,7 +191,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:fontFamily="sans-serif-light"
-                                        android:text="Start: 16 Aug, 1200"
+                                        android:text="Start: 15 Aug, 0800"
                                         android:textColor="#000"
                                         android:textSize="14sp" />
                                     <TextView

@@ -154,7 +154,7 @@ public class Profile extends AppCompatActivity {
 
 
                 doubleClickProfilePressedOnce = true;
-                Toast.makeText(Profile.this, "Double Tap on Profile Pic to Edit.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Profile.this, "Tap Again.", Toast.LENGTH_SHORT).show();
 
                 new Handler().postDelayed(new Runnable() {
 
