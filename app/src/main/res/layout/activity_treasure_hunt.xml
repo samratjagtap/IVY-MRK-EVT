@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:elevation="10dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/treasurehunt" />
+
+            <ImageView
+                android:id="@+id/checkGO"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="-40dp"
+                android:visibility="invisible"
+                android:layout_marginTop="110dp"
+                android:src="@drawable/ic_baseline_check_circle_24" />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F6FFFE"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/mainbg"
+                android:padding="30dp">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/ic_baseline_arrow_back" />
+                <ImageView
+                    android:id="@+id/leaderboard"
+                    android:onClick="leaderboard"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/ic_baseline_flag_24" />
+
+
+            </RelativeLayout>
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:background="#D2C5FF"
+                        android:gravity="bottom"
+                        android:layout_marginTop="-100dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:gravity="center_horizontal"
+                            android:paddingBottom="10dp"
+                            android:fontFamily="@font/beon"
+                            android:text="Treasure Hunt"
+                            android:textColor="#000"
+                            android:textSize="35dp"
+                            android:elevation="20dp"/>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ic_baseline_calendar_today_24" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/textmeone"
+                            android:text="Sat 15 Aug 2020 at 8:00 am"
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ic_baseline_location_on_24" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/textmeone"
+                            android:layout_marginLeft="10dp"
+                            android:text="Baramati"
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ic_baseline_attach_money_24" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/textmeone"
+                            android:layout_marginLeft="10dp"
+                            android:text="Entry Fees Rs.99"
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/beon"
+                        android:text="Additional Information"
+                        android:textColor="#000"
+                        android:textSize="25sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <ImageView
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:layout_gravity="bottom"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ic_baseline_av_timer_24" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="@font/textmeone"
+                            android:layout_marginLeft="10dp"
+                            android:text="2 Days Event"
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <ImageView
+                            android:layout_width="22dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ic_baseline_my_location_24" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/textmeone"
+                            android:layout_marginLeft="10dp"
+                            android:text="30 Clues to Discover"
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <ImageView
+                            android:layout_width="22dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ic_baseline_group_24" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/textmeone"
+                            android:layout_marginLeft="10dp"
+                            android:text="Duo Participation"
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                        <ImageView
+                            android:layout_width="22dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ic_baseline_monetization_on_24" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/textmeone"
+                            android:layout_marginLeft="10dp"
+                            android:text="Prize Pool of 2000 Rs"
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/textmeone"
+                        android:text="Treasure Hunt is one of the most popular event organized in every colleges.Treasure Hunt is not only about finding the next clue rather it the journey you'll remember for your life. It's also not about wining, but it's the joy of playing the game and on the way making new friends. And now the game of treasure has found you in the nobel city of Baramati."
+                        android:textColor="#000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/textmeone"
+                        android:layout_marginTop="5dp"
+                        android:text="Treasure Hunt is a game which is always a fuss to build and hit it off, so here we come into picture making it easier than ever for you to organize events like these."
+                        android:textColor="#000"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="About Game"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/textmeone"
+                        android:text="You as a participant will have to find clues leading a new location being the answer to the clue. At the location you will find a Special QR Code, which when scanned via inbuilt scanner will update your screen with a new clue and so on the cycle continues.\nHere's a look of IVY's QR Code:"
+                        android:textColor="#000"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/qr_sample"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/textmeone"
+                        android:text="First one to find and scan all the 30 clues will win, if not then Leaderboard will be to judge."
+                        android:textColor="#000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Be a Part of IVY's"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="90dp"
+                         />
+
+                </LinearLayout>
+            </ScrollView>
+
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:elevation="30dp"
+            android:layout_marginTop="-70dp"
+            android:gravity="center_vertical"
+            android:background="#D2C5FF"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:background="#000"
+                android:layout_marginTop="-10dp"
+                />
+
+            <Button
+                android:id="@+id/regPay"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/reg_button"
+                android:text="register"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:transitionName="regsign_box" />
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

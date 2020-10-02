@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1003071522168",
+    "firebase_url": "https://ivy-mrk-evt-eda0e.firebaseio.com",
+    "project_id": "ivy-mrk-evt-eda0e",
+    "storage_bucket": "ivy-mrk-evt-eda0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003071522168:android:fd8dd65d7cefaf1f91748d",
+        "android_client_info": {
+          "package_name": "com.jagtapazad.ivymrkevt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003071522168-u109pcfirdk3mummd54nq6l1m6v17hli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf0hfeQyYj2fBtzYKOEhvXKfprG9dmSHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003071522168-u109pcfirdk3mummd54nq6l1m6v17hli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#fff</color>
+    <color name="white">#fff</color>
+    <color name="colorAccent">#000</color>
+    <color name="black">#000</color>
+    <color name="grey">#3b3b3b</color>
+    <color name="green">#75FF75</color>
+    <color name="blue">#75FEFF</color>
+    <color name="yellow">#FEFFBE</color>
+    <color name="neonblue">#00FFFF</color>
+    <color name="navblue">#7465FF</color>
+    <color name="eventnowlight">#CBC5FF</color>
+    <color name="eventnowdark">#A69DFF</color>
+    <color name="purple">#B600FF</color>
+</resources>

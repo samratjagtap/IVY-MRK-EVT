@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#D2C5FF"
+            android:fontFamily="@font/beon"
+            android:gravity="center"
+            android:text="Terms and Conditions"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:elevation="20dp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F6FFFE"
+            android:id="@+id/sv">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="IVY MRK"
+                    android:textColor="#000"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Access to the benefits of the Competition is subject to these Terms and Conditions. By participating in the Competition, you are agreeing to all of these Terms and Conditions, without modification. If you do not agree to these Terms and Conditions, please do not participate in the Competition." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="This Competition is open between 15th August – 16th August 2020" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Leaderboard will be noted and snapshot at the end of the event i.e. at 2400 on 16 August. And the Prize will be given out on 17 August."
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Conditions:"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:textColor="#AB00FF"
+                    android:text="***We Only Accept Google Pay."
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="In the event that the prize specified becomes unavailable for any reason outside of IVY MRK’s control, IVY MRK may, but shall not be obliged to, substitute a Prize of like or equal value. The winning participant accepts the prize entirely at his/her own risk and indemnifies IVY MRK in respect of any claim for any accident, property damage, injury, or loss of life that may occur in connection with the Prize. The winning Participant is responsible for all insurance, tax or other costs that may be associated with the Prize." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Under no circumstances the registration fees will be refunded."
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="By participating, Participants grant IVY MRK Executive permission to use their names, characters, photographs, voices and likeness in connection with the Competition and waive any claims to remuneration, howsoever defined, for such use. Furthermore, by accepting the Prize, the winner agrees to participate in and co-operate as required with all reasonable media editorial requests relating to the Prize, including but not limited to, being interviewed and photographed, filmed and/or chaperoned. The winning participant waives any claim for compensation from IVY MRK for the use of such media taken or for any time required for such participation. The winning participant must also be willing to wear any accessories as required for photographs and other media-related events as required." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="No cash will be offered in connection with the Prize. The Prize or any unused portion thereof is not transferable or exchangeable for other goods and cannot be taken as cash. And the pool prize will be divide to first 3 runner up in a ratio of 5:3:2." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="IVY MRK reserves the right to stop any benefit resulting from any abuse and/or misuse of this Competition and/or non-observance of these Terms and Conditions." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="To the fullest extent permitted by law IVY MRK will not be liable for any loss or damage whatsoever (including but not limited to direct or consequential loss) or for personal injury as a result of the Competition, the Participant’s entry, the Prize or the winning thereof, and/or the participation of the events included in the Prize." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="These terms and conditions have been drafted in the English language and the English text shall be regarded as the authoritative text. If these terms and conditions are translated into any other language, any ambiguity or disagreement that may arise shall be resolved by reference to the English text." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Rules for Participants:"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="1) Everything you need is already inbuilt in app (including QR Code scanner) required for the event." />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="2) Event is Duo Participation." />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="3) Any kind of misconduct in event will lead to disqualification." />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="4) Event will last for 2 days having 30 clues placed all over the city and some outskirts." />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="5) At the end of the event the highest score on leaderboard will be evaluated for prize pay-offs." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp"
+                    android:text="For more information, please contact IVY MRK associate at jagtapazad@gmail.com " />
+
+                <CheckBox
+                    android:id="@+id/checkbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I agree to the Terms and Conditions of IVY MRK."
+                    android:checked="false"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="70dp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="-70dp"
+            android:background="#D2C5FF"
+            android:elevation="20dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_marginTop="-10dp"
+                android:background="#000" />
+
+            <Button
+                android:id="@+id/finalPay"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/reg_button"
+                android:text="PAY"
+                android:elevation="80dp"
+                android:textColor="#000"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

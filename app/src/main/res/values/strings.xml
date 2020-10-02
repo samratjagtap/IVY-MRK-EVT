@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">IVY MRK EVT</string>
+    <string name="about_us">IVY MRK EVT is the brainchild of two industry experts with the mission of revolutionizing the event management
+        industry.  Our goal is to create a dynamic platform for registration, communication, and project management by exploiting the latest
+        technologies and treating the registration process as data management.  IVYs offers an "end to end" solution with services including
+        attendee management, event website design, data analytics and reporting as well as communications and collateral design and production.
+        IVYs also offers full event planning and production services by engaging and managing valued industry partners.
+
+Why enter an already crowded field? Currently the market is too narrowly focused on simply gathering information and exporting spreadsheets.
+        Not enough attention is focused on how the data can be utilized, ported and managed. By focusing on the gathered registration
+        information as an asset, IVYs looks for ways to simplify everyday activities such as badge production and reporting as well as
+        innovating new ways the data can be used for communication, production and analytics. The industry as a whole moves too slowly
+        in integrating the latest technology, innovations and trends.  IVYs looks beyond current industry products and exams related
+        markets and ideas to create an environment where solutions oriented design and development is championed.</string>
+    <string name="about_us_2">Never satisfied with the status quo, we make every project an opportunity to connect, improve and innovate!
+        We take pride in providing exceptional customer service and excel in delivering innovative solutions to realize our clients’ vision.
+        The centerpiece of our service is event registration, attendee logistics and prime event experience, but that’s only where the partnership
+        begins.</string>
+    <string name="about_us_3">Always challenging norms, defying expectations, and creatively working towards our partner’s success
+        - we are IVY MRK EVT.</string>
+    <string name="psych_2">It’s the perfect app for game night, road trips, or even waiting in lines. So grab your phones, gather ‘round, and get ready for a gaming experience unlike anything you’ve ever tried!</string>
+    <string name="psych_1">Introducing “PSYCH!” — from the creators of "Heads Up!” — an exciting new party game to play when you’re with friends!
+
+Choose from a variety of fun categories in which each player makes up fake answers to real trivia questions.
+
+Can you pick the outrageous real answer among your friends’ fakes? Get points for guessing right, and for each other player you PSYCH! into choosing yours.</string>
+    <string name="poker_1">Poker is any of a number of card games in which players wager over which hand is best according to that specific game\'s rules in ways similar to these rankings. Often using a standard deck, poker games vary in deck configuration, the number of cards in play, the number dealt face up or face down, and the number shared by all players, but all have rules which involve one or more rounds of betting.</string>
+    <string name="poker_2">In most modern poker games the first round of betting begins with one or more of the players making some form of a forced bet (the blind or ante). In standard poker, each player bets according to the rank they believe their hand is worth as compared to the other players. The action then proceeds clockwise as each player in turn must either match (or \"call\") the maximum previous bet, or fold, losing the amount bet so far and all further involvement in the hand. A player who matches a bet may also \"raise\" (increase) the bet. The betting round ends when all players have either called the last bet or folded. If all but one player folds on any round, the remaining player collects the pot without being required to reveal their hand. If more than one player remains in contention after the final betting round, a showdown takes place where the hands are revealed, and the player with the winning hand takes the pot.</string>
+    <string name="poker_3">With the exception of initial forced bets, money is only placed into the pot voluntarily by a player who either believes the bet has positive expected value or who is trying to bluff other players for various strategic reasons. Thus, while the outcome of any particular hand significantly involves chance, the long-run expectations of the players are determined by their actions chosen on the basis of probability, psychology, and game theory.</string>
+    <string name="mafia_1">Mafia, also known as Werewolf, is a social deduction game, created by Dimitry Davidoff in 1986. The game models a conflict between two groups: an informed minority (the mafiosi or the werewolves), and an uninformed majority (the villagers). At the start of the game, each player is secretly assigned a role affiliated with one of these teams. The game has two alternating phases: first, a night role, during which those with night killing powers may covertly kill other players, and second, a day role, in which surviving players debate the identities of players and vote to eliminate a suspect. The game continues until a faction achieves its win condition; for the village, this usually means eliminating the evil minority, while for the minority this usually means reaching numerical parity with the village and eliminating any rival evil groups.</string>
+    <string name="mafia_2">Mafia is a complicated game to model, so most analyses of optimal play have assumed both: \n(a) that there are only townsfolk and Mafiosi \n(b) that the townsfolk never have a probability of identifying the Mafia that is better than chance. \nEarly treatment of the game concentrated on simulation, while more recent studies have tried to derive closed-form equilibrium solutions for perfect play.</string>
+
+
+    <string name="nickname">Please choose a nick</string>
+    <string name="default_server">ws://192.168.0.51:7000</string>
+
+</resources>

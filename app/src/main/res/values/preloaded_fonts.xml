@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alegreya_sans</item>
+        <item>@font/asap</item>
+        <item>@font/benchnine_light</item>
+        <item>@font/cairo_extralight</item>
+        <item>@font/carrois_gothic_sc</item>
+        <item>@font/dosis_light</item>
+        <item>@font/economica</item>
+        <item>@font/exo_light</item>
+        <item>@font/mate_sc</item>
+    </array>
+</resources>
