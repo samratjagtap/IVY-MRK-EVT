@@ -1,6 +1,6 @@
 ## VIDEO DEMO OF MVP APP (DATED:23/06/2020)
 
-
+https://github-production-user-asset-6210df.s3.amazonaws.com/48626849/246788061-d6325d7c-fa07-4045-ae50-18aaaaad554b.MP4
 
 # IVY MRK EVT - Event Organizing App
 
@@ -36,4 +36,3 @@ Your feedback and contributions are invaluable to the growth of IVY MRK EVT. If 
 
 Join me in revolutionizing event organizing and participant engagement. Let's create unforgettable memories with IVY MRK EVT!
 
-https://shorturl.at/iouzA
