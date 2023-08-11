@@ -1,5 +1,6 @@
 ## VIDEO DEMO OF MVP APP (DATED:23/06/2020)
 
+
 # IVY MRK EVT - Event Organizing App
 
 Welcome to the IVY MRK EVT GitHub repository! IVY MRK EVT is an innovative Android application designed to streamline event organizing, enhance participant engagement, and provide a platform for hosting interactive group activities. As the sole developer of this project, I've poured my passion and expertise into crafting an application that redefines event experiences.
