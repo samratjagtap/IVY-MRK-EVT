@@ -1,4 +1,5 @@
 ## VIDEO DEMO OF MVP APP (DATED:23/06/2020)
+https://shorturl.at/iouzA
 
 
 # IVY MRK EVT - Event Organizing App
