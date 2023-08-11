@@ -1,5 +1,5 @@
 ## VIDEO DEMO OF MVP APP (DATED:23/06/2020)
-https://shorturl.at/iouzA
+
 
 
 # IVY MRK EVT - Event Organizing App
@@ -35,3 +35,5 @@ I've personally developed and designed every aspect of IVY MRK EVT, from the int
 Your feedback and contributions are invaluable to the growth of IVY MRK EVT. If you have ideas, suggestions, or improvements, feel free to open an issue or submit a pull request. Let's collaborate to make event organizing an extraordinary experience!
 
 Join me in revolutionizing event organizing and participant engagement. Let's create unforgettable memories with IVY MRK EVT!
+
+https://shorturl.at/iouzA
